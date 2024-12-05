@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp10.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <UniformGrid>
+        <Image Source="kiciuch.jpg"
+               x:Name="pics"></Image>
+        <ComboBox x:Name="wyborCombo"
+            Height="20">
+            <ComboBoxItem>jeden</ComboBoxItem>
+            <ComboBoxItem>dwa</ComboBoxItem>
+            <ComboBoxItem>trzy</ComboBoxItem>
+            <ComboBoxItem>cztery</ComboBoxItem>
+            <ComboBoxItem>pięć</ComboBoxItem>
+        </ComboBox>
+        <Button Height="150"
+                Width="300"
+                FontSize="40" Click="Button_Click">Pokaż</Button>
+    </UniformGrid>
+</Window>

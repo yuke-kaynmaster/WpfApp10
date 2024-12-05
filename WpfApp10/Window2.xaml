@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfApp10.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <UniformGrid>
+        <Image Source="kiciuch.jpg"
+               x:Name="pics"></Image>
+        <StackPanel>
+            <RadioButton x:Name="first" IsChecked="True" Margin="10">jeden</RadioButton>
+            <RadioButton x:Name="second" IsChecked="True" Margin="10">dwa</RadioButton>
+            <RadioButton x:Name="third" IsChecked="True" Margin="10">trzy</RadioButton>
+            <RadioButton x:Name="fourth" IsChecked="True" Margin="10">cztery</RadioButton>
+            <RadioButton x:Name="fifth" IsChecked="True" Margin="10">pięć</RadioButton>
+        </StackPanel>
+        <Button Height="150"
+                Width="300"
+                FontSize="40" Click="Button_Click">Pokaż</Button>
+    </UniformGrid>
+</Window>
